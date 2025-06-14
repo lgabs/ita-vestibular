@@ -1,0 +1,827 @@
+{
+  "year": 2024,
+  "registrations": [
+    {
+      "category": "Ativa",
+      "men": 2502,
+      "women": 883,
+      "total": 3385,
+      "percentage": "37,3%"
+    },
+    {
+      "category": "Reserva",
+      "men": 3245,
+      "women": 857,
+      "total": 4102,
+      "percentage": "45,2%"
+    },
+    {
+      "category": "Treineiros",
+      "men": 1213,
+      "women": 376,
+      "total": 1589,
+      "percentage": "17,5%"
+    },
+    {
+      "category": "Total",
+      "men": 6960,
+      "women": 2116,
+      "total": 9076,
+      "percentage": null
+    }
+  ],
+  "specialization_choices": [
+    {
+      "course": "Engenharia Aeroespacial",
+      "category": "Ativa",
+      "percentage": "34,4%"
+    },
+    {
+      "course": "Engenharia Aeroespacial",
+      "category": "Reserva",
+      "percentage": "32,5%"
+    },
+    {
+      "course": "Engenharia Aeroespacial",
+      "category": "Treineiros",
+      "percentage": "37,3%"
+    },
+    {
+      "course": "Engenharia Aeronáutica",
+      "category": "Ativa",
+      "percentage": "18,4%"
+    },
+    {
+      "course": "Engenharia Aeronáutica",
+      "category": "Reserva",
+      "percentage": "12,9%"
+    },
+    {
+      "course": "Engenharia Aeronáutica",
+      "category": "Treineiros",
+      "percentage": "17,1%"
+    },
+    {
+      "course": "Engenharia Civil-Aeronáutica",
+      "category": "Ativa",
+      "percentage": "4,2%"
+    },
+    {
+      "course": "Engenharia Civil-Aeronáutica",
+      "category": "Reserva",
+      "percentage": "2,9%"
+    },
+    {
+      "course": "Engenharia Civil-Aeronáutica",
+      "category": "Treineiros",
+      "percentage": "4,8%"
+    },
+    {
+      "course": "Engenharia de Computação",
+      "category": "Ativa",
+      "percentage": "27,5%"
+    },
+    {
+      "course": "Engenharia de Computação",
+      "category": "Reserva",
+      "percentage": "36,6%"
+    },
+    {
+      "course": "Engenharia de Computação",
+      "category": "Treineiros",
+      "percentage": "25,8%"
+    },
+    {
+      "course": "Engenharia Eletrônica",
+      "category": "Ativa",
+      "percentage": "4,9%"
+    },
+    {
+      "course": "Engenharia Eletrônica",
+      "category": "Reserva",
+      "percentage": "6,3%"
+    },
+    {
+      "course": "Engenharia Eletrônica",
+      "category": "Treineiros",
+      "percentage": "5,7%"
+    },
+    {
+      "course": "Engenharia Mecânica-Aeronáutica",
+      "category": "Ativa",
+      "percentage": "10,5%"
+    },
+    {
+      "course": "Engenharia Mecânica-Aeronáutica",
+      "category": "Reserva",
+      "percentage": "8,8%"
+    },
+    {
+      "course": "Engenharia Mecânica-Aeronáutica",
+      "category": "Treineiros",
+      "percentage": "9,4%"
+    }
+  ],
+  "school_origins": [
+    {
+      "school_type": "Federal",
+      "category": "Ativa",
+      "percentage": "12,7%"
+    },
+    {
+      "school_type": "Federal",
+      "category": "Reserva",
+      "percentage": "9,2%"
+    },
+    {
+      "school_type": "Federal",
+      "category": "Treineiros",
+      "percentage": "9,8%"
+    },
+    {
+      "school_type": "Estadual",
+      "category": "Ativa",
+      "percentage": "27,8%"
+    },
+    {
+      "school_type": "Estadual",
+      "category": "Reserva",
+      "percentage": "13,3%"
+    },
+    {
+      "school_type": "Estadual",
+      "category": "Treineiros",
+      "percentage": "9,5%"
+    },
+    {
+      "school_type": "Municipal",
+      "category": "Ativa",
+      "percentage": "1,1%"
+    },
+    {
+      "school_type": "Municipal",
+      "category": "Reserva",
+      "percentage": "0,6%"
+    },
+    {
+      "school_type": "Municipal",
+      "category": "Treineiros",
+      "percentage": "0,6%"
+    },
+    {
+      "school_type": "Particular",
+      "category": "Ativa",
+      "percentage": "58,4%"
+    },
+    {
+      "school_type": "Particular",
+      "category": "Reserva",
+      "percentage": "76,9%"
+    },
+    {
+      "school_type": "Particular",
+      "category": "Treineiros",
+      "percentage": "80,2%"
+    },
+    {
+      "school_type": "Fizeram Curso Preparatório",
+      "category": "Ativa",
+      "percentage": "37,2%"
+    },
+    {
+      "school_type": "Fizeram Curso Preparatório",
+      "category": "Reserva",
+      "percentage": "43,5%"
+    },
+    {
+      "school_type": "Fizeram Curso Preparatório",
+      "category": "Treineiros",
+      "percentage": "6,6%"
+    }
+  ],
+  "absenteeism": [
+    {
+      "category": "Ativa",
+      "percentage": "18,0%"
+    },
+    {
+      "category": "Reserva",
+      "percentage": "10,7%"
+    },
+    {
+      "category": "Treineiros",
+      "percentage": "11,6%"
+    }
+  ],
+  "subject_averages": [
+    {
+      "subject": "Média 1ª Fase",
+      "category": "Ativa",
+      "average_score": 7.29
+    },
+    {
+      "subject": "Média 1ª Fase",
+      "category": "Reserva",
+      "average_score": 7.46
+    },
+    {
+      "subject": "Média 1ª Fase",
+      "category": "Geral",
+      "average_score": 7.42
+    },
+    {
+      "subject": "Matemática",
+      "category": "Ativa",
+      "average_score": 6.58
+    },
+    {
+      "subject": "Matemática",
+      "category": "Reserva",
+      "average_score": 6.47
+    },
+    {
+      "subject": "Matemática",
+      "category": "Geral",
+      "average_score": 6.49
+    },
+    {
+      "subject": "Física",
+      "category": "Ativa",
+      "average_score": 5.62
+    },
+    {
+      "subject": "Física",
+      "category": "Reserva",
+      "average_score": 5.66
+    },
+    {
+      "subject": "Física",
+      "category": "Geral",
+      "average_score": 5.65
+    },
+    {
+      "subject": "Química",
+      "category": "Ativa",
+      "average_score": 6.99
+    },
+    {
+      "subject": "Química",
+      "category": "Reserva",
+      "average_score": 7.41
+    },
+    {
+      "subject": "Química",
+      "category": "Geral",
+      "average_score": 7.31
+    },
+    {
+      "subject": "Redação",
+      "category": "Ativa",
+      "average_score": 6.06
+    },
+    {
+      "subject": "Redação",
+      "category": "Reserva",
+      "average_score": 6.19
+    },
+    {
+      "subject": "Redação",
+      "category": "Geral",
+      "average_score": 6.16
+    },
+    {
+      "subject": "Inglês",
+      "category": "Ativa",
+      "average_score": 8.01
+    },
+    {
+      "subject": "Inglês",
+      "category": "Reserva",
+      "average_score": 8.25
+    },
+    {
+      "subject": "Inglês",
+      "category": "Geral",
+      "average_score": 8.19
+    },
+    {
+      "subject": "Média Geral (sem inglês)",
+      "category": "Ativa",
+      "average_score": 6.51
+    },
+    {
+      "subject": "Média Geral (sem inglês)",
+      "category": "Reserva",
+      "average_score": 6.64
+    },
+    {
+      "subject": "Média Geral (sem inglês)",
+      "category": "Geral",
+      "average_score": 6.61
+    }
+  ],
+  "cutoff_scores": [
+    {
+      "candidate_category": "Ativa",
+      "admission_type": "Ampla Concorrência",
+      "score": 6.06
+    },
+    {
+      "candidate_category": "Ativa",
+      "admission_type": "Cota Racial",
+      "score": 5.6233
+    },
+    {
+      "candidate_category": "Reserva",
+      "admission_type": "Ampla Concorrência",
+      "score": 6.1683
+    },
+    {
+      "candidate_category": "Reserva",
+      "admission_type": "Cota Racial",
+      "score": 5.5816
+    }
+  ],
+  "convocation_counts": [
+    {
+      "category": "Ativa",
+      "men": 34,
+      "women": 2,
+      "total": 36
+    },
+    {
+      "category": "Reserva",
+      "men": 108,
+      "women": 6,
+      "total": 114
+    },
+    {
+      "category": "Total",
+      "men": 142,
+      "women": 8,
+      "total": 150
+    }
+  ],
+  "exam_locations": [
+    {
+      "description": "Ativa",
+      "locations": [
+        {
+          "location": "Manaus-AM",
+          "registered_men": 39,
+          "registered_women": 19,
+          "registered_total": 58,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Belém-PA",
+          "registered_men": 68,
+          "registered_women": 26,
+          "registered_total": 94,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Fortaleza-CE",
+          "registered_men": 310,
+          "registered_women": 76,
+          "registered_total": 386,
+          "convocated_men": 12,
+          "convocated_women": 1,
+          "convocated_total": 13
+        },
+        {
+          "location": "Natal-RN",
+          "registered_men": 38,
+          "registered_women": 10,
+          "registered_total": 48,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Recife-PE",
+          "registered_men": 96,
+          "registered_women": 31,
+          "registered_total": 127,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Salvador-BA",
+          "registered_men": 92,
+          "registered_women": 18,
+          "registered_total": 110,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Teresina-PI",
+          "registered_men": 38,
+          "registered_women": 16,
+          "registered_total": 54,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "São Luís -MA",
+          "registered_men": 14,
+          "registered_women": 13,
+          "registered_total": 27,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Brasília-DF",
+          "registered_men": 96,
+          "registered_women": 33,
+          "registered_total": 129,
+          "convocated_men": 2,
+          "convocated_women": 0,
+          "convocated_total": 2
+        },
+        {
+          "location": "Goiânia-GO",
+          "registered_men": 98,
+          "registered_women": 19,
+          "registered_total": 117,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Campo Grande-MS",
+          "registered_men": 23,
+          "registered_women": 14,
+          "registered_total": 37,
+          "convocated_men": 2,
+          "convocated_women": 0,
+          "convocated_total": 2
+        },
+        {
+          "location": "Cuiabá-MT",
+          "registered_men": 25,
+          "registered_women": 8,
+          "registered_total": 33,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Belo Horizonte-MG",
+          "registered_men": 126,
+          "registered_women": 38,
+          "registered_total": 164,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Juiz de Fora-MG",
+          "registered_men": 31,
+          "registered_women": 15,
+          "registered_total": 46,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Vitória-ES",
+          "registered_men": 46,
+          "registered_women": 27,
+          "registered_total": 73,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Rio de Janeiro-RJ",
+          "registered_men": 452,
+          "registered_women": 182,
+          "registered_total": 634,
+          "convocated_men": 2,
+          "convocated_women": 0,
+          "convocated_total": 2
+        },
+        {
+          "location": "São Paulo-SP",
+          "registered_men": 295,
+          "registered_women": 106,
+          "registered_total": 401,
+          "convocated_men": 2,
+          "convocated_women": 0,
+          "convocated_total": 2
+        },
+        {
+          "location": "São José dos Campos-SP",
+          "registered_men": 212,
+          "registered_women": 99,
+          "registered_total": 311,
+          "convocated_men": 11,
+          "convocated_women": 1,
+          "convocated_total": 12
+        },
+        {
+          "location": "Campinas-SP",
+          "registered_men": 74,
+          "registered_women": 24,
+          "registered_total": 98,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Ribeirão Preto-SP",
+          "registered_men": 45,
+          "registered_women": 15,
+          "registered_total": 60,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "São José do Rio Preto-SP",
+          "registered_men": 38,
+          "registered_women": 10,
+          "registered_total": 48,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Curitiba-PR",
+          "registered_men": 111,
+          "registered_women": 44,
+          "registered_total": 155,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Londrina-PR",
+          "registered_men": 47,
+          "registered_women": 14,
+          "registered_total": 61,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Florianópolis-SC",
+          "registered_men": 21,
+          "registered_women": 13,
+          "registered_total": 34,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Porto Alegre-RS",
+          "registered_men": 67,
+          "registered_women": 13,
+          "registered_total": 80,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        }
+      ]
+    },
+    {
+      "description": "Reserva",
+      "locations": [
+        {
+          "location": "Manaus-AM",
+          "registered_men": 36,
+          "registered_women": 7,
+          "registered_total": 43,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Belém-PA",
+          "registered_men": 53,
+          "registered_women": 17,
+          "registered_total": 70,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Fortaleza-CE",
+          "registered_men": 576,
+          "registered_women": 145,
+          "registered_total": 721,
+          "convocated_men": 40,
+          "convocated_women": 3,
+          "convocated_total": 43
+        },
+        {
+          "location": "Natal-RN",
+          "registered_men": 26,
+          "registered_women": 14,
+          "registered_total": 40,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Recife-PE",
+          "registered_men": 76,
+          "registered_women": 18,
+          "registered_total": 94,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Salvador-BA",
+          "registered_men": 114,
+          "registered_women": 30,
+          "registered_total": 144,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Teresina-PI",
+          "registered_men": 72,
+          "registered_women": 25,
+          "registered_total": 97,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "São Luís -MA",
+          "registered_men": 21,
+          "registered_women": 7,
+          "registered_total": 28,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Brasília-DF",
+          "registered_men": 122,
+          "registered_women": 23,
+          "registered_total": 145,
+          "convocated_men": 2,
+          "convocated_women": 0,
+          "convocated_total": 2
+        },
+        {
+          "location": "Goiânia-GO",
+          "registered_men": 109,
+          "registered_women": 27,
+          "registered_total": 136,
+          "convocated_men": 5,
+          "convocated_women": 0,
+          "convocated_total": 5
+        },
+        {
+          "location": "Campo Grande-MS",
+          "registered_men": 35,
+          "registered_women": 9,
+          "registered_total": 44,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Cuiabá-MT",
+          "registered_men": 23,
+          "registered_women": 5,
+          "registered_total": 28,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Belo Horizonte-MG",
+          "registered_men": 126,
+          "registered_women": 49,
+          "registered_total": 175,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Juiz de Fora-MG",
+          "registered_men": 34,
+          "registered_women": 11,
+          "registered_total": 45,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Vitória-ES",
+          "registered_men": 67,
+          "registered_women": 17,
+          "registered_total": 84,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Rio de Janeiro-RJ",
+          "registered_men": 240,
+          "registered_women": 73,
+          "registered_total": 313,
+          "convocated_men": 3,
+          "convocated_women": 0,
+          "convocated_total": 3
+        },
+        {
+          "location": "São Paulo-SP",
+          "registered_men": 532,
+          "registered_women": 125,
+          "registered_total": 657,
+          "convocated_men": 9,
+          "convocated_women": 0,
+          "convocated_total": 9
+        },
+        {
+          "location": "São José dos Campos-SP",
+          "registered_men": 422,
+          "registered_women": 99,
+          "registered_total": 521,
+          "convocated_men": 41,
+          "convocated_women": 3,
+          "convocated_total": 44
+        },
+        {
+          "location": "Campinas-SP",
+          "registered_men": 129,
+          "registered_women": 35,
+          "registered_total": 164,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Ribeirão Preto-SP",
+          "registered_men": 65,
+          "registered_women": 20,
+          "registered_total": 85,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "São José do Rio Preto-SP",
+          "registered_men": 52,
+          "registered_women": 15,
+          "registered_total": 67,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Curitiba-PR",
+          "registered_men": 148,
+          "registered_women": 37,
+          "registered_total": 185,
+          "convocated_men": 2,
+          "convocated_women": 0,
+          "convocated_total": 2
+        },
+        {
+          "location": "Londrina-PR",
+          "registered_men": 51,
+          "registered_women": 22,
+          "registered_total": 73,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        },
+        {
+          "location": "Florianópolis-SC",
+          "registered_men": 47,
+          "registered_women": 8,
+          "registered_total": 55,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1
+        },
+        {
+          "location": "Porto Alegre-RS",
+          "registered_men": 69,
+          "registered_women": 19,
+          "registered_total": 88,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0
+        }
+      ]
+    }
+  ]
+}

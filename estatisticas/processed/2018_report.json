@@ -1,0 +1,411 @@
+{
+  "year": 2018,
+  "registrations": {
+    "total": 11136,
+    "women": 2575,
+    "women_percentage": "23,1%",
+    "categories": [
+      {
+        "name": "Não optantes",
+        "count": 5011,
+        "percentage": "45,0%"
+      },
+      {
+        "name": "Optantes pela carreira militar",
+        "count": 4463,
+        "percentage": "40,1%"
+      },
+      {
+        "name": "Treineiros",
+        "count": 1662,
+        "percentage": "14,9%"
+      }
+    ]
+  },
+  "specialization_choices": [
+    {
+      "course": "Engenharia Aeroespacial",
+      "category": "Overall",
+      "candidates": 2721,
+      "percentage": "24,4%"
+    },
+    {
+      "course": "Engenharia Aeronáutica",
+      "category": "Overall",
+      "candidates": 2445,
+      "percentage": "22,0%"
+    },
+    {
+      "course": "Engenharia Civil-Aeronáutica",
+      "category": "Overall",
+      "candidates": 922,
+      "percentage": "8,3%"
+    },
+    {
+      "course": "Engenharia de Computação",
+      "category": "Overall",
+      "candidates": 2058,
+      "percentage": "18,5%"
+    },
+    {
+      "course": "Engenharia Eletrônica",
+      "category": "Overall",
+      "candidates": 1009,
+      "percentage": "9,1%"
+    },
+    {
+      "course": "Engenharia Mecânica-Aeronáutica",
+      "category": "Overall",
+      "candidates": 1981,
+      "percentage": "17,8%"
+    }
+  ],
+  "school_origins": {
+    "sources": [
+      {
+        "type": "Estaduais",
+        "percentage": "24%"
+      },
+      {
+        "type": "Federais",
+        "percentage": "9%"
+      },
+      {
+        "type": "Municipais",
+        "percentage": "1%"
+      },
+      {
+        "type": "Particulares",
+        "percentage": "66%"
+      }
+    ],
+    "prep_course_percentage": "28%"
+  },
+  "absenteeism": {
+    "category": "Overall",
+    "percentage": "33,3%"
+  },
+  "subject_averages": [
+    {
+      "subject": "Física",
+      "category": "Overall",
+      "average_score": 7.71
+    },
+    {
+      "subject": "Português",
+      "category": "Overall",
+      "average_score": 7.66
+    },
+    {
+      "subject": "Inglês",
+      "category": "Overall",
+      "average_score": 8.03
+    },
+    {
+      "subject": "Matemática",
+      "category": "Overall",
+      "average_score": 7.71
+    },
+    {
+      "subject": "Química",
+      "category": "Overall",
+      "average_score": 7.4
+    },
+    {
+      "subject": "Média Geral (sem inglês)",
+      "category": "Overall",
+      "average_score": 7.62
+    }
+  ],
+  "cutoff_scores": [
+    {
+      "category": "Não Optante",
+      "score": 7.3375
+    },
+    {
+      "category": "Optante",
+      "score": 7.07
+    }
+  ],
+  "convocation_counts": [
+    {
+      "category": "Overall",
+      "men": 105,
+      "women": 5,
+      "total": 110,
+      "ordinarias": 85,
+      "privativas": 25
+    }
+  ],
+  "exam_locations": [
+    {
+      "description": "Overall",
+      "locations": [
+        {
+          "location": "Manaus-AM",
+          "registered_men": 218,
+          "registered_women": 99,
+          "registered_total": 317,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Belém-PA",
+          "registered_men": 300,
+          "registered_women": 112,
+          "registered_total": 412,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Fortaleza-CE",
+          "registered_men": 887,
+          "registered_women": 256,
+          "registered_total": 1143,
+          "convocated_men": 43,
+          "convocated_women": 2,
+          "convocated_total": 45,
+          "convocated_ordinarias": 31,
+          "convocated_privativas": 14
+        },
+        {
+          "location": "Natal-RN",
+          "registered_men": 91,
+          "registered_women": 28,
+          "registered_total": 119,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Recife-PE",
+          "registered_men": 390,
+          "registered_women": 120,
+          "registered_total": 510,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1,
+          "convocated_ordinarias": 1,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Salvador-BA",
+          "registered_men": 304,
+          "registered_women": 68,
+          "registered_total": 372,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1,
+          "convocated_ordinarias": 1,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Teresina-PI",
+          "registered_men": 154,
+          "registered_women": 33,
+          "registered_total": 187,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "São Luís-MA",
+          "registered_men": 153,
+          "registered_women": 49,
+          "registered_total": 202,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Brasília-DF",
+          "registered_men": 403,
+          "registered_women": 111,
+          "registered_total": 514,
+          "convocated_men": 5,
+          "convocated_women": 0,
+          "convocated_total": 5,
+          "convocated_ordinarias": 4,
+          "convocated_privativas": 1
+        },
+        {
+          "location": "Goiânia-GO",
+          "registered_men": 319,
+          "registered_women": 90,
+          "registered_total": 409,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Campo Grande-MS",
+          "registered_men": 98,
+          "registered_women": 30,
+          "registered_total": 128,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1,
+          "convocated_ordinarias": 1,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Cuiabá-MT",
+          "registered_men": 130,
+          "registered_women": 47,
+          "registered_total": 177,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Belo Horizonte-MG",
+          "registered_men": 359,
+          "registered_women": 113,
+          "registered_total": 472,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Juiz de Fora-MG",
+          "registered_men": 124,
+          "registered_women": 51,
+          "registered_total": 175,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Vitória-ES",
+          "registered_men": 163,
+          "registered_women": 51,
+          "registered_total": 214,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Rio de Janeiro-RJ",
+          "registered_men": 861,
+          "registered_women": 267,
+          "registered_total": 1128,
+          "convocated_men": 11,
+          "convocated_women": 0,
+          "convocated_total": 11,
+          "convocated_ordinarias": 8,
+          "convocated_privativas": 3
+        },
+        {
+          "location": "São Paulo-SP",
+          "registered_men": 1353,
+          "registered_women": 367,
+          "registered_total": 1720,
+          "convocated_men": 3,
+          "convocated_women": 0,
+          "convocated_total": 3,
+          "convocated_ordinarias": 3,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "São José dos Campos-SP",
+          "registered_men": 796,
+          "registered_women": 240,
+          "registered_total": 1036,
+          "convocated_men": 38,
+          "convocated_women": 3,
+          "convocated_total": 41,
+          "convocated_ordinarias": 34,
+          "convocated_privativas": 7
+        },
+        {
+          "location": "Campinas-SP",
+          "registered_men": 339,
+          "registered_women": 97,
+          "registered_total": 436,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Ribeirão Preto-SP",
+          "registered_men": 206,
+          "registered_women": 58,
+          "registered_total": 264,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "São José do Rio Preto-SP",
+          "registered_men": 141,
+          "registered_women": 41,
+          "registered_total": 182,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Curitiba-PR",
+          "registered_men": 445,
+          "registered_women": 155,
+          "registered_total": 600,
+          "convocated_men": 0,
+          "convocated_women": 0,
+          "convocated_total": 0,
+          "convocated_ordinarias": 0,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Londrina-PR",
+          "registered_men": 144,
+          "registered_women": 52,
+          "registered_total": 196,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1,
+          "convocated_ordinarias": 1,
+          "convocated_privativas": 0
+        },
+        {
+          "location": "Porto Alegre-RS",
+          "registered_men": 183,
+          "registered_women": 40,
+          "registered_total": 223,
+          "convocated_men": 1,
+          "convocated_women": 0,
+          "convocated_total": 1,
+          "convocated_ordinarias": 1,
+          "convocated_privativas": 0
+        }
+      ]
+    }
+  ]
+}
