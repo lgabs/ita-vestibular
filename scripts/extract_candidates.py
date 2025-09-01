@@ -7,27 +7,35 @@ from typing import Dict, List, Any, Optional
 from rich.pretty import pprint
 from prompts import YEARLY_REPORT_SYSTEM_PROMPT
 from models import YearlyReport
-
+from langsmith import traceable
 
 # Load environment variables
 load_dotenv()
 
 # Initialize OpenAI async client
-client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+api_key = os.getenv("OPENAI_API_KEY")
+client = AsyncOpenAI(api_key=api_key)
+
+# Show the end of the API key for verification
+if api_key:
+    print(f"Using OpenAI API key ending in: ...{api_key[-6:]}")
+else:
+    print("Warning: No OpenAI API key found!")
 
 
 def load_data() -> Dict[str, List[Dict[str, Any]]]:
     """Load the raw data from the JSON file."""
     # Note: Using a local copy for development to avoid re-downloading
-    with open('estatisticas/estatisticas.json', 'r', encoding='utf-8') as fh:
+    with open("estatisticas/estatisticas.json", "r", encoding="utf-8") as fh:
         return json.load(fh)
+
 
 def convert_tables_to_text(tables: List[Dict[str, Any]]) -> str:
     """Converts a list of table dictionaries into a formatted string."""
     text_representation = []
     for table_data in tables:
-        heading = table_data.get('heading', 'No Heading')
-        table = table_data.get('table', [])
+        heading = table_data.get("heading", "No Heading")
+        table = table_data.get("table", [])
 
         text_representation.append(f"--- TABLE: {heading} ---")
         if table:
@@ -37,8 +45,10 @@ def convert_tables_to_text(tables: List[Dict[str, Any]]) -> str:
         text_representation.append("--- END TABLE ---\n")
     return "\n".join(text_representation)
 
-
-async def process_year_data(year: str, tables: List[Dict[str, Any]]) -> Optional[YearlyReport]:
+@traceable(run_type="llm")
+async def process_year_data(
+    year: str, tables: List[Dict[str, Any]]
+) -> Optional[YearlyReport]:
     """Process all data for a specific year using OpenAI API."""
 
     print(f"-> Processing year: {year}")
@@ -55,9 +65,10 @@ async def process_year_data(year: str, tables: List[Dict[str, Any]]) -> Optional
             model="o4-mini",
             input=[
                 {"role": "system", "content": YEARLY_REPORT_SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt}
+                {"role": "user", "content": user_prompt},
             ],
             text_format=YearlyReport,
+            store=True,
         )
         print(f"<- Finished processing year: {year}")
         return response.output_parsed
@@ -70,17 +81,23 @@ async def process_year_data(year: str, tables: List[Dict[str, Any]]) -> Optional
 
 async def extract_all_data(data: Dict[str, List[Dict[str, Any]]]):
     """Extracts all report data from the raw JSON data in parallel."""
-    tasks = [process_year_data(year, tables) for year, tables in data.items() if int(year) < 2024]
+    tasks = [
+        process_year_data(year, tables)
+        for year, tables in data.items()
+        if int(year) in [2025]
+    ]
     yearly_reports = await asyncio.gather(*tasks)
     return [report for report in yearly_reports if report is not None]
 
 
-def save_reports_to_json(reports: List[YearlyReport], output_dir: str = 'estatisticas/processed'):
+def save_reports_to_json(
+    reports: List[YearlyReport], output_dir: str = "estatisticas/processed"
+):
     """Saves each yearly report to its own JSON file."""
     os.makedirs(output_dir, exist_ok=True)
     for report in reports:
         output_path = os.path.join(output_dir, f"{report.year}_report.json")
-        with open(output_path, 'w', encoding='utf-8') as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             # Use Pydantic's model_dump_json for clean, indented output
             f.write(report.model_dump_json(indent=2))
         print(f"Saved report for year {report.year} to {output_path}")
