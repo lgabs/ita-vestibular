@@ -1,0 +1,103 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# ITA Vestibular Statistics Analysis Project
+
+## Project Motivation
+This project extracts, processes, and visualizes statistical data from ITA (Instituto Tecnológico de Aeronáutica) entrance exam reports to provide insights into admission trends, candidate demographics, and performance patterns over time. ITA is one of Brazil's most prestigious engineering schools, and understanding its admission patterns helps analyze educational trends and accessibility in Brazilian higher education.
+
+## Project Structure & Components
+
+### 1. Data Extraction (`scripts/extract_estatisticas.py`)
+- **Purpose**: Web scrapes raw statistical tables from ITA's official statistics page
+- **Input**: ITA vestibular statistics webpage (https://www.vestibular.ita.br/estatisticas.htm)
+- **Output**: Raw HTML tables saved as JSON (`estatisticas/estatisticas.json`)
+- **Key Features**: Handles encoding issues, extracts yearly sections, preserves table structure
+
+### 2. Data Processing (`scripts/extract_candidates.py`)
+- **Purpose**: Converts raw HTML tables into structured data using AI-powered extraction
+- **Input**: Raw JSON data from step 1
+- **Output**: Structured yearly reports (`estatisticas/processed/{year}_report.json`)
+- **Technology**: OpenAI API with structured output parsing using Pydantic models
+- **Key Features**: Parallel processing, error handling, data validation
+
+### 3. Data Models (`scripts/models.py`)
+- **Purpose**: Defines Pydantic schemas for structured data representation
+- **Components**:
+  - `CandidateRegistration`: Registration counts by category and gender
+  - `SpecializationChoice`: Course preference percentages
+  - `SchoolOrigin`: Educational background statistics
+  - `Absenteeism`: Exam attendance rates
+  - `SubjectAverage`: Performance metrics
+  - `CutoffScore`: Admission thresholds
+  - `ConvocationCount`: Admission statistics
+  - `ExamLocationStat`: Geographic distribution
+  - `YearlyReport`: Comprehensive annual data container
+
+### 4. AI Prompts (`scripts/prompts.py`)
+- **Purpose**: Contains system prompts for AI-powered data extraction
+- **Features**: Handles data variations, cleaning instructions, model adherence
+
+### 5. General Visualizations (`scripts/part1_visualizations.py`)
+- **Purpose**: Creates comprehensive charts showing admission trends
+- **Outputs**: PNG files in `estatisticas/geral/`
+- **Charts**:
+  - Total registrations (Efetivos vs Treineiros)
+  - Efetivos breakdown (Ativa/Optantes vs Reserva/Não Optantes)
+  - Gender dynamics over time
+  - Geographic distribution by state
+  - School origin analysis (public vs private)
+
+### 6. Regional Analysis (`estatisticas/para/`)
+- **Purpose**: Focused analysis on candidates from Pará state
+- **Components**:
+  - `aprovados-para-por-ano.md`: Historical data of approved candidates
+  - `plot-aprovados.py`: Visualization script for Pará-specific trends
+  - `aprovados_por_ano.png`: Generated chart
+- Interactive Analysis (`stats.ipynb`)
+    - **Purpose**: Jupyter notebook for exploratory data analysis
+    - **Features**: Interactive data exploration, custom visualizations, statistical analysis
+- **obs**: this is a previous code yet to be updated following the new framework.
+
+## Data Categories Analyzed
+- **Registration Statistics**: Total candidates by category (Efetivos, Treineiros)
+- **Demographics**: Gender distribution, geographic origin
+- **Educational Background**: Public vs private school origins, preparatory courses
+- **Performance Metrics**: Subject averages, cutoff scores
+- **Admission Results**: Convocation counts, absenteeism rates
+- **Course Preferences**: Engineering specialization choices
+
+## Key Insights Tracked
+1. **Temporal Trends**: Changes in candidate numbers and demographics over years
+2. **Gender Dynamics**: Evolution of male/female participation rates
+3. **Geographic Distribution**: Regional representation in applications
+4. **Educational Equity**: Public vs private school representation
+5. **Performance Standards**: Score trends and admission thresholds
+6. **Regional Focus**: Specific analysis for underrepresented states (Pará)
+
+## Technical Stack
+- **Python 3.12+**: Core language
+- **Web Scraping**: BeautifulSoup4, requests
+- **Data Processing**: pandas, numpy
+- **AI Integration**: OpenAI API with structured outputs
+- **Visualization**: matplotlib with fivethirtyeight style
+- **Data Validation**: Pydantic models
+- **Development**: Jupyter notebooks, uv package manager
+
+## Development Guidelines
+- Use absolute paths when possible for tool calls
+- Maintain data integrity through Pydantic validation
+- Follow established visualization styles (fivethirtyeight)
+- Handle encoding issues (ISO-8859-1 for Portuguese content)
+- Implement parallel processing for efficiency
+- Create modular, reusable components
+- Document data transformations and assumptions
+
+## File Naming Conventions
+- Raw data: `estatisticas.json`
+- Processed data: `{year}_report.json`
+- Visualizations: `{number}_{descriptive_name}.png`
+- Scripts: `{action}_{subject}.py`
